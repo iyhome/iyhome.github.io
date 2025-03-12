@@ -5,7 +5,7 @@
 
 ###### 我的配置
 我在拼多多百亿补贴上买的16Gb+256Gb ¥3499
-![](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030701.png)
+![](25030701.png)
 
 ###### 目前流行方案极其利弊分析
 1. 原装大容量硬盘
@@ -34,25 +34,25 @@
    - 市面上用很多带硬盘位的拓展坞速率只有10Gbps,别买这种,**慢了4倍**!
    - 雷雳4的传输速率为40Gbps=5000MB/s , NVMe硬盘的传输速率建议不要低于5000MB/s
    - 一定注意: Mini只有背面的typeC接口能达到40Gbps !
-    ![](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030703.png)
+    ![](25030703.png)
 2. 打开自带的磁盘工具App, 将外接硬盘抹掉,格式化为APFS;
-    ![](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030704.png)
+    ![](25030704.png)
    - 至于区不区分大小写,我也不太清楚,我的系统盘选了"区分大小写"后,Steam和Epic运行不了
    - 不建议加密,后面出了啥问题很难搞的
    - 你可以看到,连接类型是显示的PCIe,这和PC机的NVMe硬盘类型是一样的.
-    ![](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030705.png)
+    ![](25030705.png)
    - 如果你的外接硬盘空间足够大,可以分成两个盘,一个做User目录,一个做时间机器.
 3. 打开设置App,点击"用户与组群",在你的用户上**右键**,会显示出"高级选项...",我们点进去;
-    ![](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030706.png)
+    ![](25030706.png)
 4. 只需要将"个人目录"改成外接硬盘的路径即可,一定要一次改对!
-    ![](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030707.png)
+    ![](25030707.png)
    - 外接硬盘路径怎么查? 一般外接硬盘的路径挂载在 /Volumes/ 下
-   ![](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030708.png)
+   ![](25030708.png)
    - 如果用户目录是在 外接硬盘下的 home目录里面, 那么你个人目录要改成 /Volumes/"外接硬盘名"/home/ 才是正确的
    - 改完之后记得重启电脑.
 5. 更改软件安装位置
    - App Stroe: 直接在App Stroe的设置中更改;
-    ![](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030709.png)
+    ![](25030709.png)
    - HomeBrew: 
       - 比如说我在外接硬盘用户目录新建一个目录专门存放app,取名叫 App . 那么就把/opt/homebrew/ 移动到App目录下.
         ~~~ bash
@@ -64,14 +64,14 @@
         sudo ln -s /Volumes/替换你用户名/App/homebrew/ /opt/
         ~~~
        - 给大家看一下我的软链接
-        ![](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030710.png)
+        ![](25030710.png)
 6. 迁移其他软件的安装位置,如照片,iCloud等等;
 7. 坊达建议设置
-    ![坊达设置①](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030711.png)
-    ![坊达设置②](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030712.png)
+    ![坊达设置①](25030711.png)
+    ![坊达设置②](25030712.png)
 8. 如此一来,大部分的文件和软件都会存储在外接硬盘上了.
    - 安装pkg和dmg软件的时候,如crossover,如果提示全局安装还是用户安装,选用户安装就会安装在外接硬盘,选全局安装就会安装在机身硬盘.
 
 ###### 成果展示
-![](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/25030702.png)
+![](25030702.png)
 

@@ -20,3 +20,24 @@ function runtime() {
         + ((seconds < 10) ? '0' : '') + seconds + ' 秒 ';
 }
 runtime();
+
+/* 离开当前页面时修改网页标题，回到当前页面时恢复原来标题 */
+window.onload = function() {
+	var OriginTitile = document.title;
+	var titleTime;
+	document.addEventListener('visibilitychange', function() {
+	  if(document.hidden) {
+		$('[rel="icon"]').attr('href', "/favicon/failure.ico");
+		$('[rel="shortcut icon"]').attr('href', "/favicon/failure.ico");
+		document.title = '别走~~~';
+		clearTimeout(titleTime);
+	  } else {
+		$('[rel="icon"]').attr('href', "/favicon/favicon.ico");
+		$('[rel="shortcut icon"]').attr('href', "/favicon/favicon.ico");
+		document.title = '你干嘛~';
+		titleTime = setTimeout(function() {
+		  document.title = OriginTitile;
+		}, 2000);
+	  }
+	});
+  }

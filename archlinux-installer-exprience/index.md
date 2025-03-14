@@ -19,7 +19,7 @@ setfont /usr/share/kbd/consolefonts/LatGrkCyr-12*22.psfu.gz
 ~~~bash
 lsblk -f
 ~~~
-![](https://raw.githubusercontent.com/iyhome/iyhome.github.io/refs/heads/master/_posts/assets/20030301.png)
+![](20030301.png)
 
 ##### 对新手比较友好的分区方式
 ~~~bash

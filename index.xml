@@ -33,7 +33,10 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
-<p>⭐️初次安装 Homebrew / Linuxbrew 时，如果无法下载安装脚本， 可以使用我们每日同步的安装脚本文件。</p>]]></description></item><item><title>Windows10原生输入法驯化小鹤双拼全解析</title><link>https://iyhome.github.io/windows-flypy/</link><pubDate>Fri, 29 May 2020 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-flypy/</guid><description><![CDATA[<blockquote>
+<p>⭐️初次安装 Homebrew / Linuxbrew 时，如果无法下载安装脚本， 可以使用我们每日同步的安装脚本文件。</p>]]></description></item><item><title>FFMPEG新手向指南: 全是干货</title><link>https://iyhome.github.io/ffmpeg-cmder/</link><pubDate>Fri, 19 Feb 2021 09:59:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/ffmpeg-cmder/</guid><description><![CDATA[<h2 id="简介">简介</h2>
+<p>FFmpeg是一套可以用来记录、转换数字音频、视频，并能将其转化为流的开源计算机程序。</p>
+<h2 id="平台">平台</h2>
+<p>FFmpeg可用于 Linux、Windows、macOS平台，<a href="https://www.ffmpeg.org/download.html" target="_blank" rel="noopener noreffer ">点击</a> 即可跳转至官方下载页面。</p>]]></description></item><item><title>Windows10原生输入法驯化小鹤双拼全解析</title><link>https://iyhome.github.io/windows-flypy/</link><pubDate>Fri, 29 May 2020 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-flypy/</guid><description><![CDATA[<blockquote>
 <p>本文直接介绍如何在windows自带输入法上面快速添加小鹤双屏输入法</p></blockquote>
 <h5 id="step1-复制以下代码到记事本保存">Step1. 复制以下代码到记事本，保存。</h5>
 <div class="highlight"><div class="chroma">
@@ -65,7 +68,8 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h5 id="step2-修改后缀名为reg">Step2. 修改后缀名为reg</h5>
-<h5 id="step3-双击运行即可">Step3. 双击运行即可</h5>]]></description></item><item><title>从Tweak Tool到终端指令：GNOME美化的十八般兵器谱</title><link>https://iyhome.github.io/gnome-config/</link><pubDate>Thu, 28 May 2020 12:54:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/gnome-config/</guid><description><![CDATA[<h2 id="本文针对的美化部分包括">本文针对的美化部分包括：</h2>
+<h5 id="step3-双击运行即可">Step3. 双击运行即可</h5>]]></description></item><item><title>拒绝词穷！Win10自带输入法隐藏的AI词库驯化术</title><link>https://iyhome.github.io/windows-ime-ciku/</link><pubDate>Fri, 29 May 2020 15:06:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-ime-ciku/</guid><description>&lt;p>最近发现Windows10自带输入法也挺好看的呢，就是词库有点伤，于是就做出了这篇文章，供大家参考！&lt;/p>
+&lt;p>在文章的开头，先介绍一下本文需要用到的软件——深蓝词库转换（点击即可下载）&lt;/p></description></item><item><title>从Tweak Tool到终端指令：GNOME美化的十八般兵器谱</title><link>https://iyhome.github.io/gnome-config/</link><pubDate>Thu, 28 May 2020 12:54:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/gnome-config/</guid><description><![CDATA[<h2 id="本文针对的美化部分包括">本文针对的美化部分包括：</h2>
 <ul>
 <li>主题</li>
 <li>图标</li>

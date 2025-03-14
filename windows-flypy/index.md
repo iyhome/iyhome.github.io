@@ -5,6 +5,7 @@
 > 本文直接介绍如何在windows自带输入法上面快速添加小鹤双屏输入法
 
 ##### Step1. 复制以下代码到记事本，保存。
+
 ~~~reg
 Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS]

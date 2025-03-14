@@ -92,12 +92,12 @@ sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth d
 4. 然后再更新Plymouth，打开终端输入：
 ~~~bash
 sudo update-alternatives --config default.plymouth
-~~~　　　　
+~~~
 5. 在弹出的命令行下输入你想要的主题所对应的序号
 6. 更新initramfs
 ~~~bash
 sudo update-initramfs -u
-~~~　　　　
+~~~
 7. 重启
 ~~~bash
 reboot

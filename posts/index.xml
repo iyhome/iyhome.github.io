@@ -59,7 +59,9 @@
 </div><p>找到  <strong>enabled=1</strong> ，将其改为 <strong>enabled=0</strong> 。保存关闭即可。</p>]]></description></item><item><title>FFMPEG新手向指南: 全是干货</title><link>https://iyhome.github.io/ffmpeg-cmder/</link><pubDate>Fri, 19 Feb 2021 09:59:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/ffmpeg-cmder/</guid><description><![CDATA[<h2 id="简介">简介</h2>
 <p>FFmpeg是一套可以用来记录、转换数字音频、视频，并能将其转化为流的开源计算机程序。</p>
 <h2 id="平台">平台</h2>
-<p>FFmpeg可用于 Linux、Windows、macOS平台，<a href="https://www.ffmpeg.org/download.html" target="_blank" rel="noopener noreffer ">点击</a> 即可跳转至官方下载页面。</p>]]></description></item><item><title>Ubuntu下Secure CRT安装及破解</title><link>https://iyhome.github.io/linux-securecrt-install/</link><pubDate>Wed, 17 Feb 2021 17:06:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/linux-securecrt-install/</guid><description><![CDATA[<h4 id="资源下载">资源下载</h4>
+<p>FFmpeg可用于 Linux、Windows、macOS平台，<a href="https://www.ffmpeg.org/download.html" target="_blank" rel="noopener noreffer ">点击</a> 即可跳转至官方下载页面。</p>]]></description></item><item><title>oh-my-zsh 中 agnoster主题 之 隐藏用户名信息</title><link>https://iyhome.github.io/oh-my-zsh-agnoster/</link><pubDate>Fri, 19 Feb 2021 09:45:00 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/oh-my-zsh-agnoster/</guid><description>&lt;p>本文所讨论内容的前提是已经安装好了oh-my-zsh。
+当oh-my-zsh使用了agnoster主题之后，每一行路径之前都会出现 用户名@主机名 的无用信息，我们可将其隐藏。
+直接编辑agnoster.zsh-theme主题配置文件，命令如下：&lt;/p></description></item><item><title>Ubuntu下Secure CRT安装及破解</title><link>https://iyhome.github.io/linux-securecrt-install/</link><pubDate>Wed, 17 Feb 2021 17:06:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/linux-securecrt-install/</guid><description><![CDATA[<h4 id="资源下载">资源下载</h4>
 <ul>
 <li><a href="https://yhome.lanzoux.com/iYR0alrldfc" target="_blank" rel="noopener noreffer ">蓝奏网盘 密码: 3t4q </a></li>
 </ul>
@@ -71,5 +73,4 @@
 &lt;p>小鹤双拼是一种高效汉字输入法，将声母、韵母压缩为两键，结合形码（鹤形）区分同音字。其双拼方案键位设计合理，支持主流输入法挂接，学习成本低且能显著提升打字速度。
 本文介绍如何在windows自带输入法上面快速添加小鹤双拼输入法。&lt;/p></description></item><item><title>拒绝词穷！Win10自带输入法隐藏的AI词库驯化术</title><link>https://iyhome.github.io/windows-ime-ciku/</link><pubDate>Fri, 29 May 2020 15:06:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-ime-ciku/</guid><description>&lt;p>最近发现Windows10自带输入法也挺好看的呢，就是词库有点伤，于是就做出了这篇文章，供大家参考！&lt;/p>
 &lt;p>在文章的开头，先介绍一下本文需要用到的软件——深蓝词库转换（点击即可下载）&lt;/p></description></item><item><title>Gnome3的美化详解</title><link>https://iyhome.github.io/gnome-config/</link><pubDate>Thu, 28 May 2020 12:54:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/gnome-config/</guid><description>&lt;blockquote>
-&lt;p>Linux的图形用户界面（GUI）提供了直观的视觉操作环境，用户可通过鼠标、菜单等交互，常见桌面环境包括GNOME——以简洁设计、易用性和高度可定制性著称，是Fedora、Ubuntu等发行版的默认界面。GNOME基于GTK+工具包，支持扩展和主题定制，兼顾新手友好与高级用户需求。&lt;/p></description></item><item><title>Arch Linux极简主义安装指南</title><link>https://iyhome.github.io/archlinux-installer-exprience/</link><pubDate>Tue, 03 Mar 2020 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/archlinux-installer-exprience/</guid><description>&lt;blockquote>
-&lt;p>先说说我为什么开始入坑archlinux的吧，我最喜欢这个系统的一点就是简洁，DIY程度高，可以定制真正属于自己的专用系统。像gentoo的话，就为了日常使用也没必要那么折腾，除非你是想在折腾的过程中搞清楚其中的原理，那也还是可以的。在这里，我就不说怎么装archlinux了，官方文档和各类教程（视频的，图片加文字的）在网上都有。我就简单说一下一些小想法吧。&lt;/p></description></item></channel></rss>
+&lt;p>Linux的图形用户界面（GUI）提供了直观的视觉操作环境，用户可通过鼠标、菜单等交互，常见桌面环境包括GNOME——以简洁设计、易用性和高度可定制性著称，是Fedora、Ubuntu等发行版的默认界面。GNOME基于GTK+工具包，支持扩展和主题定制，兼顾新手友好与高级用户需求。&lt;/p></description></item></channel></rss>

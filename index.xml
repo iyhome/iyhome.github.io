@@ -1,65 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>SereinBlog</title><link>https://iyhome.github.io/</link><description>欢迎欢迎━(*｀∀´*)ノ亻! 这里是Serein的个人博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>serein9410@gmail.com (Serein)</managingEditor><webMaster>serein9410@gmail.com (Serein)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 07 Mar 2025 22:52:18 +0800</lastBuildDate><atom:link href="https://iyhome.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Mac mini M4存储扩容终极指南: 绕过苹果天价SSD</title><link>https://iyhome.github.io/macmini-ssd-bestmothod/</link><pubDate>Fri, 07 Mar 2025 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/macmini-ssd-bestmothod/</guid><description>&lt;p>我有写一篇markdown语法的Blog，然后我复制给你，你帮忙看一下文章是否还可以润色，markdown语法是不是可以改进，然后用Markdown的形式给我输出，方便我直接复制粘贴。&lt;/p></description></item><item><title>深度生产力指南：我的macOS软件栈与系统调优全解析</title><link>https://iyhome.github.io/macos-apps/</link><pubDate>Wed, 05 Mar 2025 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/macos-apps/</guid><description><![CDATA[<h4 id="homebrew"><a href="https://brew.sh/" target="_blank" rel="noopener noreffer ">HomeBrew</a></h4>
 <blockquote>
-<p>macOS的包管理器，类似Ubuntu的apt、Arch的pacman、Redhat的yum</p></blockquote>
-<p><strong>安装</strong></p>
-<blockquote>
-<p>采用<a href="https://mirrors.ustc.edu.cn/help/brew.git.html" target="_blank" rel="noopener noreffer ">中科大源</a></p></blockquote>
-<ul>
-<li>首先在命令行运行如下几条命令设置环境变量：</li>
-</ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">HOMEBREW_BREW_GIT_REMOTE</span><span class="o">=</span><span class="s2">&#34;https://mirrors.ustc.edu.cn/brew.git&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">HOMEBREW_CORE_GIT_REMOTE</span><span class="o">=</span><span class="s2">&#34;https://mirrors.ustc.edu.cn/homebrew-core.git&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">HOMEBREW_BOTTLE_DOMAIN</span><span class="o">=</span><span class="s2">&#34;https://mirrors.ustc.edu.cn/homebrew-bottles&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">HOMEBREW_API_DOMAIN</span><span class="o">=</span><span class="s2">&#34;https://mirrors.ustc.edu.cn/homebrew-bottles/api&#34;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><ul>
-<li>之后在命令行运行 Homebrew 安装脚本：</li>
-</ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">/bin/bash -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://github.com/Homebrew/install/raw/HEAD/install.sh<span class="k">)</span><span class="s2">&#34;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><blockquote>
-<p>⭐️初次安装 Homebrew / Linuxbrew 时，如果无法下载安装脚本， 可以使用我们每日同步的安装脚本文件。</p>]]></description></item><item><title>彻底解决Ubuntu中 “检测到系统程序错误”</title><link>https://iyhome.github.io/ubuntu-sysapp-err/</link><pubDate>Tue, 29 Mar 2022 20:27:00 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/ubuntu-sysapp-err/</guid><description><![CDATA[<blockquote>
-<p>想要彻底告别这种错误弹窗，就必须禁止<strong>Apport</strong>。</p></blockquote>
-<p>我们直接修改他的配置文件，命令如下：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo gedit /etc/default/apport
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>　　
-用vim打开的apport内容大致如下：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo service apport start <span class="nv">force_start</span><span class="o">=</span><span class="m">1</span>
-</span></span><span class="line"><span class="cl"><span class="nv">enabled</span><span class="o">=</span><span class="m">1</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>找到  <strong>enabled=1</strong> ，将其改为 <strong>enabled=0</strong> 。保存关闭即可。</p>]]></description></item><item><title>FFMPEG新手向指南: 全是干货</title><link>https://iyhome.github.io/ffmpeg-cmder/</link><pubDate>Fri, 19 Feb 2021 09:59:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/ffmpeg-cmder/</guid><description><![CDATA[<h2 id="简介">简介</h2>
-<p>FFmpeg是一套可以用来记录、转换数字音频、视频，并能将其转化为流的开源计算机程序。</p>
-<h2 id="平台">平台</h2>
-<p>FFmpeg可用于 Linux、Windows、macOS平台，<a href="https://www.ffmpeg.org/download.html" target="_blank" rel="noopener noreffer ">点击</a> 即可跳转至官方下载页面。</p>]]></description></item><item><title>oh-my-zsh 中 agnoster主题 之 隐藏用户名信息</title><link>https://iyhome.github.io/oh-my-zsh-agnoster/</link><pubDate>Fri, 19 Feb 2021 09:45:00 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/oh-my-zsh-agnoster/</guid><description>&lt;p>本文所讨论内容的前提是已经安装好了oh-my-zsh。
+<p>macOS的包管理器，类似Ubuntu的apt、Arch的pacman、Redhat的yum</p>]]></description></item><item><title>彻底解决Ubuntu中 “检测到系统程序错误”</title><link>https://iyhome.github.io/ubuntu-sysapp-err/</link><pubDate>Tue, 29 Mar 2022 20:27:00 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/ubuntu-sysapp-err/</guid><description><![CDATA[<blockquote>
+<p>想要彻底告别这种错误弹窗，就必须禁止<strong>Apport</strong>。</p>]]></description></item><item><title>FFMPEG新手向指南: 全是干货</title><link>https://iyhome.github.io/ffmpeg-cmder/</link><pubDate>Fri, 19 Feb 2021 09:59:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/ffmpeg-cmder/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>FFmpeg是一套可以用来记录、转换数字音频、视频，并能将其转化为流的开源计算机程序。&lt;/p></description></item><item><title>oh-my-zsh 中 agnoster主题 之 隐藏用户名信息</title><link>https://iyhome.github.io/oh-my-zsh-agnoster/</link><pubDate>Fri, 19 Feb 2021 09:45:00 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/oh-my-zsh-agnoster/</guid><description>&lt;p>本文所讨论内容的前提是已经安装好了oh-my-zsh。
 当oh-my-zsh使用了agnoster主题之后，每一行路径之前都会出现 用户名@主机名 的无用信息，我们可将其隐藏。
 直接编辑agnoster.zsh-theme主题配置文件，命令如下：&lt;/p></description></item><item><title>Ubuntu下Secure CRT安装及破解</title><link>https://iyhome.github.io/linux-securecrt-install/</link><pubDate>Wed, 17 Feb 2021 17:06:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/linux-securecrt-install/</guid><description><![CDATA[<h4 id="资源下载">资源下载</h4>
 <ul>
@@ -67,10 +10,7 @@
 </ul>
 <h4 id="安装步骤">安装步骤</h4>
 <h5 id="方法一--图形界面安装">方法一 —— 图形界面安装：</h5>
-<p>　　在Ubuntu下双击安装包，点击安装即安装成功。</p>
-<h5 id="方法二--命令行安装">方法二 —— 命令行安装：</h5>
-<p>在终端进入deb包的目录，并输入：</p>]]></description></item><item><title>Chrome实验室 —— 打开Chrome隐藏功能</title><link>https://iyhome.github.io/chrome-experiments/</link><pubDate>Wed, 17 Feb 2021 15:15:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/chrome-experiments/</guid><description>&lt;p>谷歌浏览器和新版edge可以通过实验室打开隐藏功能。许多被研发而未被正式使用的新功能都集成在chrome实验室，可以人为打开。由于浏览器的版本不同，功能会有出入。&lt;/p></description></item><item><title>关于Windows原生输入法添加小鹤双拼的办法</title><link>https://iyhome.github.io/windows-flypy/</link><pubDate>Fri, 29 May 2020 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-flypy/</guid><description>&lt;blockquote>
+<p>　　在Ubuntu下双击安装包，点击安装即安装成功。</p>]]></description></item><item><title>Chrome实验室 —— 打开Chrome隐藏功能</title><link>https://iyhome.github.io/chrome-experiments/</link><pubDate>Wed, 17 Feb 2021 15:15:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/chrome-experiments/</guid><description>&lt;p>谷歌浏览器和新版edge可以通过实验室打开隐藏功能。许多被研发而未被正式使用的新功能都集成在chrome实验室，可以人为打开。由于浏览器的版本不同，功能会有出入。&lt;/p></description></item><item><title>关于Windows原生输入法添加小鹤双拼的办法</title><link>https://iyhome.github.io/windows-flypy/</link><pubDate>Fri, 29 May 2020 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-flypy/</guid><description>&lt;blockquote>
 &lt;p>小鹤双拼是一种高效汉字输入法，将声母、韵母压缩为两键，结合形码（鹤形）区分同音字。其双拼方案键位设计合理，支持主流输入法挂接，学习成本低且能显著提升打字速度。
-本文介绍如何在windows自带输入法上面快速添加小鹤双拼输入法。&lt;/p></description></item><item><title>拒绝词穷！Win10自带输入法隐藏的AI词库驯化术</title><link>https://iyhome.github.io/windows-ime-ciku/</link><pubDate>Fri, 29 May 2020 15:06:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-ime-ciku/</guid><description>&lt;p>最近发现Windows10自带输入法也挺好看的呢，就是词库有点伤，于是就做出了这篇文章，供大家参考！&lt;/p>
-&lt;p>在文章的开头，先介绍一下本文需要用到的软件——深蓝词库转换（点击即可下载）&lt;/p></description></item><item><title>Gnome3的美化详解</title><link>https://iyhome.github.io/gnome-config/</link><pubDate>Thu, 28 May 2020 12:54:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/gnome-config/</guid><description>&lt;blockquote>
+本文介绍如何在windows自带输入法上面快速添加小鹤双拼输入法。&lt;/p></description></item><item><title>拒绝词穷！Win10自带输入法隐藏的AI词库驯化术</title><link>https://iyhome.github.io/windows-ime-ciku/</link><pubDate>Fri, 29 May 2020 15:06:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-ime-ciku/</guid><description>&lt;p>最近发现Windows10自带输入法也挺好看的呢，就是词库有点伤，于是就做出了这篇文章，供大家参考！&lt;/p></description></item><item><title>Gnome3的美化详解</title><link>https://iyhome.github.io/gnome-config/</link><pubDate>Thu, 28 May 2020 12:54:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/gnome-config/</guid><description>&lt;blockquote>
 &lt;p>Linux的图形用户界面（GUI）提供了直观的视觉操作环境，用户可通过鼠标、菜单等交互，常见桌面环境包括GNOME——以简洁设计、易用性和高度可定制性著称，是Fedora、Ubuntu等发行版的默认界面。GNOME基于GTK+工具包，支持扩展和主题定制，兼顾新手友好与高级用户需求。&lt;/p></description></item></channel></rss>

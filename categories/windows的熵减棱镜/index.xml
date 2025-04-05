@@ -1,34 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Windows的熵减棱镜 - 分类 - SereinBlog</title><link>https://iyhome.github.io/categories/windows%E7%9A%84%E7%86%B5%E5%87%8F%E6%A3%B1%E9%95%9C/</link><description>Windows的熵减棱镜 - 分类 - SereinBlog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>serein9410@gmail.com (Serein)</managingEditor><webMaster>serein9410@gmail.com (Serein)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 May 2020 22:52:18 +0800</lastBuildDate><atom:link href="https://iyhome.github.io/categories/windows%E7%9A%84%E7%86%B5%E5%87%8F%E6%A3%B1%E9%95%9C/" rel="self" type="application/rss+xml"/><item><title>Windows10原生输入法驯化小鹤双拼全解析</title><link>https://iyhome.github.io/windows-flypy/</link><pubDate>Fri, 29 May 2020 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-flypy/</guid><description><![CDATA[<blockquote>
-<p>本文直接介绍如何在windows自带输入法上面快速添加小鹤双屏输入法</p></blockquote>
-<h5 id="step1-复制以下代码到记事本保存">Step1. 复制以下代码到记事本，保存。</h5>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-reg" data-lang="reg"><span class="line"><span class="cl">Windows Registry Editor Version 5.00
-</span></span><span class="line"><span class="cl"><span class="k">[</span><span class="nb">HKEY_CURRENT_USER</span><span class="k">\Software\Microsoft\InputMethod\Settings\CHS]</span>
-</span></span><span class="line"><span class="cl"><span class="na">&#34;LangBar Force On&#34;</span><span class="o">=</span><span class="nv">dword</span><span class="p">:</span><span class="m">00000000</span>
-</span></span><span class="line"><span class="cl"><span class="na">&#34;Enable Double Pinyin&#34;</span><span class="o">=</span><span class="nv">dword</span><span class="p">:</span><span class="m">00000001</span>
-</span></span><span class="line"><span class="cl"><span class="na">&#34;EmoticonTipTriggerCount&#34;</span><span class="o">=</span><span class="nv">dword</span><span class="p">:</span><span class="m">00000001</span>
-</span></span><span class="line"><span class="cl"><span class="na">&#34;HapLastDownloadTime&#34;</span><span class="o">=</span><span class="nv">hex(b)</span><span class="p">:</span><span class="m">eb,69,29,59,00,00,00,00</span>
-</span></span><span class="line"><span class="cl"><span class="na">&#34;UserDefinedDoublePinyinScheme0&#34;</span><span class="o">=</span><span class="s">&#34;FlyPY*2*^*iuvdjhcwfg xmlnpbksqszxkrltvyovt&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="na">&#34;DoublePinyinScheme&#34;</span><span class="o">=</span><span class="nv">dword</span><span class="p">:</span><span class="m">0000000a</span>
-</span></span><span class="line"><span class="cl"><span class="na">&#34;UDLLastUpdatedTime&#34;</span><span class="o">=</span><span class="s">&#34;2017-05-27 22:01:40&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="na">&#34;UDLCount&#34;</span><span class="o">=</span><span class="nv">dword</span><span class="p">:</span><span class="m">0000018b</span>
-</span></span><span class="line"><span class="cl"><span class="na">&#34;UDLVisibleCount&#34;</span><span class="o">=</span><span class="nv">dword</span><span class="p">:</span><span class="m">0000018b</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h5 id="step2-修改后缀名为reg">Step2. 修改后缀名为reg</h5>
-<h5 id="step3-双击运行即可">Step3. 双击运行即可</h5>]]></description></item><item><title>拒绝词穷！Win10自带输入法隐藏的AI词库驯化术</title><link>https://iyhome.github.io/windows-ime-ciku/</link><pubDate>Fri, 29 May 2020 15:06:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-ime-ciku/</guid><description>&lt;p>最近发现Windows10自带输入法也挺好看的呢，就是词库有点伤，于是就做出了这篇文章，供大家参考！&lt;/p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Windows的熵减棱镜 - 分类 - SereinBlog</title><link>https://iyhome.github.io/categories/windows%E7%9A%84%E7%86%B5%E5%87%8F%E6%A3%B1%E9%95%9C/</link><description>Windows的熵减棱镜 - 分类 - SereinBlog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>serein9410@gmail.com (Serein)</managingEditor><webMaster>serein9410@gmail.com (Serein)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 May 2020 22:52:18 +0800</lastBuildDate><atom:link href="https://iyhome.github.io/categories/windows%E7%9A%84%E7%86%B5%E5%87%8F%E6%A3%B1%E9%95%9C/" rel="self" type="application/rss+xml"/><item><title>Windows10原生输入法驯化小鹤双拼全解析</title><link>https://iyhome.github.io/windows-flypy/</link><pubDate>Fri, 29 May 2020 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-flypy/</guid><description>&lt;blockquote>
+&lt;p>小鹤双拼是一种高效汉字输入法，将声母、韵母压缩为两键，结合形码（鹤形）区分同音字。其双拼方案键位设计合理，支持主流输入法挂接，学习成本低且能显著提升打字速度。
+本文介绍如何在windows自带输入法上面快速添加小鹤双拼输入法。&lt;/p></description></item><item><title>拒绝词穷！Win10自带输入法隐藏的AI词库驯化术</title><link>https://iyhome.github.io/windows-ime-ciku/</link><pubDate>Fri, 29 May 2020 15:06:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-ime-ciku/</guid><description>&lt;p>最近发现Windows10自带输入法也挺好看的呢，就是词库有点伤，于是就做出了这篇文章，供大家参考！&lt;/p>
 &lt;p>在文章的开头，先介绍一下本文需要用到的软件——深蓝词库转换（点击即可下载）&lt;/p></description></item></channel></rss>

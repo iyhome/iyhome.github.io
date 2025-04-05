@@ -56,7 +56,7 @@
 </span></span><span class="line"><span class="cl"><span class="nv">enabled</span><span class="o">=</span><span class="m">1</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>找到  <strong>enabled=1</strong> ，将其改为 <strong>enabled=0</strong> 。保存关闭即可。</p>]]></description></item><item><title>FFMPEG新手向指南: 全是干货</title><link>https://iyhome.github.io/ffmpeg-cmder/</link><pubDate>Fri, 19 Feb 2021 09:59:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/ffmpeg-cmder/</guid><description><![CDATA[<h2 id="简介">简介</h2>
+</div><p>找到  <strong>enabled=1</strong> ，将其改为 <strong>enabled=0</strong> 。保存关闭即可。</p>]]></description></item><item><title>FFMPEG新手向指南: 全是干货</title><link>https://iyhome.github.io/chrome-experiments/</link><pubDate>Fri, 19 Feb 2021 09:59:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/chrome-experiments/</guid><description>&lt;p>谷歌浏览器和新版edge可以通过实验室打开隐藏功能。许多被研发而未被正式使用的新功能都集成在chrome实验室，可以人为打开。由于浏览器的版本不同，功能会有出入。&lt;/p></description></item><item><title>FFMPEG新手向指南: 全是干货</title><link>https://iyhome.github.io/ffmpeg-cmder/</link><pubDate>Fri, 19 Feb 2021 09:59:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/ffmpeg-cmder/</guid><description><![CDATA[<h2 id="简介">简介</h2>
 <p>FFmpeg是一套可以用来记录、转换数字音频、视频，并能将其转化为流的开源计算机程序。</p>
 <h2 id="平台">平台</h2>
 <p>FFmpeg可用于 Linux、Windows、macOS平台，<a href="https://www.ffmpeg.org/download.html" target="_blank" rel="noopener noreffer ">点击</a> 即可跳转至官方下载页面。</p>]]></description></item><item><title>Windows10原生输入法驯化小鹤双拼全解析</title><link>https://iyhome.github.io/windows-flypy/</link><pubDate>Fri, 29 May 2020 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-flypy/</guid><description><![CDATA[<blockquote>

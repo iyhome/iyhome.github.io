@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Created By http://www.zhetao.com/sitemapcreator,  URLs: 6 Generated at: 2025-03-10 01:06:17 -->
+
+  <url>
+    <loc>https://serein.blog/</loc>
+    <priority>1.00</priority>
+<image:image>
+<image:loc>https://serein.blog/img/icon_wechat.png</image:loc>
+</image:image>
+  </url>
+
+  <url>
+    <loc>https://serein.blog/2025/03/07/MacMiniM4-SSD-BestMothod/</loc>
+    <priority>1.00</priority>
+<image:image>
+<image:loc>https://serein.blog/img/home-bg.png</image:loc>
+</image:image>
+  </url>
+
+</urlset>

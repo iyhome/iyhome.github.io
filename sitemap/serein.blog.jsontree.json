@@ -1,0 +1,88 @@
+var site_tree_node = {
+  "url": "https://serein.blog/",
+  "incount": "7",
+  "outcount": "6",
+  "title": "Serei...",
+  "childs": [
+  {
+    "url": "https://serein.blog/2025/03/07/MacMiniM4-SSD-BestMothod/",
+    "incount": "4",
+    "outcount": "5",
+    "title": "Mac M...",
+    "childs": [
+    {
+      "url": "https://serein.blog/archive/?tag=macOS%E7%9A%84%E5%B0%8F%E5%B7%A7%E6%80%9D",
+      "incount": "2",
+      "outcount": "4",
+      "title": "Archi...",
+      "childs": [
+            ]
+    }
+    ,{
+      "url": "https://serein.blog/2025/03/07/MacMiniM4-SSD-BestMothod/{url}",
+      "incount": "1",
+      "outcount": "0",
+      "title": "null",
+      "childs": [
+            ]
+    }
+    ]
+  }
+  ,{
+    "url": "https://serein.blog/2025/03/05/macOS-Apps/",
+    "incount": "4",
+    "outcount": "5",
+    "title": "macOS...",
+    "childs": [
+    {
+      "url": "https://serein.blog/2025/03/05/macOS-Apps/{url}",
+      "incount": "1",
+      "outcount": "0",
+      "title": "null",
+      "childs": [
+            ]
+    }
+    ]
+  }
+  ,{
+    "url": "https://serein.blog/archive/",
+    "incount": "4",
+    "outcount": "4",
+    "title": "Archi...",
+    "childs": [
+    {
+      "url": "https://serein.blog/archive/{url}",
+      "incount": "2",
+      "outcount": "0",
+      "title": "null",
+      "childs": [
+            ]
+    }
+    ]
+  }
+  ,{
+    "url": "https://serein.blog/about/",
+    "incount": "2",
+    "outcount": "4",
+    "title": "About...",
+    "childs": [
+    {
+      "url": "https://serein.blog/about/{url}",
+      "incount": "1",
+      "outcount": "0",
+      "title": "null",
+      "childs": [
+            ]
+    }
+    ]
+  }
+  ,{
+    "url": "https://serein.blog/{url}",
+    "incount": "1",
+    "outcount": "0",
+    "title": "null",
+    "childs": [
+        ]
+  }
+  ]
+}

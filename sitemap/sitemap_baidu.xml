@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Created By http://www.zhetao.com/sitemapcreator,  URLs: 6 Generated at: 2025-03-10 01:06:17 -->
+
+  <url>
+    <loc>https://serein.blog/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://serein.blog/2025/03/07/MacMiniM4-SSD-BestMothod/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://serein.blog/2025/03/05/macOS-Apps/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://serein.blog/archive/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://serein.blog/about/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://serein.blog/archive/?tag=macOS%E7%9A%84%E5%B0%8F%E5%B7%A7%E6%80%9D</loc>
+    <priority>1.00</priority>
+  </url>
+
+</urlset>

@@ -52,7 +52,7 @@ jQuery(document).ready(function($) {
 function runtime() {
 	window.setTimeout("runtime()", 1000);
 	/* 请修把这里的建站时间换为你自己的 */
-    let startTime = new Date('05/23/2023 08:00:00');
+    let startTime = new Date('12/01/2019 08:00:00');
     let endTime = new Date();
     let usedTime = endTime - startTime;
     let days = Math.floor(usedTime / (24 * 3600 * 1000));

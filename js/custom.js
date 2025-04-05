@@ -71,24 +71,24 @@ function runtime() {
 }
 runtime();
 
-/* ---   Config2.离开进入网站的标题变化   ---*/
+/* ---   Config3.离开进入网站的标题变化   ---*/
 /* 离开当前页面时修改网页标题，回到当前页面时恢复原来标题 */
 window.onload = function() {
 	var OriginTitile = document.title;
 	var titleTime;
 	document.addEventListener('visibilitychange', function() {
-	  if(document.hidden) {
-		$('[rel="icon"]').attr('href', "/failure.ico");
-		$('[rel="shortcut icon"]').attr('href', "/failure.ico");
-		document.title = '哦~该回码头了';
-		clearTimeout(titleTime);
-	  } else {
-		$('[rel="icon"]').attr('href', "/favicon.ico");
-		$('[rel="shortcut icon"]').attr('href', "/favicon.ico");
-		document.title = '哈~又整到薯条了';
-		titleTime = setTimeout(function() {
-		  document.title = OriginTitile;
-		}, 2000);
-	  }
+		if(document.hidden) {
+			$('[rel="icon"]').attr('href', "/images/favicon/favicon-2.ico");
+			$('[rel="shortcut icon"]').attr('href', "/images/favicon/favicon-2.ico");
+			document.title = '我找不到你了';
+			clearTimeout(titleTime);
+		} else {
+			$('[rel="icon"]').attr('href', "/images/favicon/favicon.ico");
+			$('[rel="shortcut icon"]').attr('href', "/images/favicon/favicon.ico");
+			document.title = '哈~原来你在这!';
+			titleTime = setTimeout(function() {
+				document.title = OriginTitile;
+			}, 2000);
+		}
 	});
-  }
+}

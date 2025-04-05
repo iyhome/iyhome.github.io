@@ -16,7 +16,6 @@ jQuery(document).ready(function($) {
 		/* 点击频率，点击几次就换文字 */
 		var frequency = 2;
 		if (a_click % frequency === 0) {
-			
 			var $i = $("<span/>").text(a[a_idx]);
 			a_idx = (a_idx + 1) % a.length;
 			var x = e.pageX,
@@ -42,10 +41,8 @@ jQuery(document).ready(function($) {
 			function() {
 				$i.remove();
 			});
-			
 		}
 	a_click ++;
-		
     });
 });
 

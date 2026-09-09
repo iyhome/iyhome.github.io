@@ -14,7 +14,7 @@ vim ~/.oh-my-zsh/themes/agnoster.zsh-theme
 # Context: user@hostname (who am I and where am I)
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-  prompt_segment black default "%(!.%{%F{yellow}%}.)%n@%m"
+  prompt_segment black default "%(!.%&#123;%F{yellow}%&#125;.)%n@%m"
 ~~~
 {% endraw %}
 

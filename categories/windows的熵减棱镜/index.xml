@@ -1,3 +1,26 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Windows的熵减棱镜 - 分类 - SereinBlog</title><link>https://iyhome.github.io/categories/windows%E7%9A%84%E7%86%B5%E5%87%8F%E6%A3%B1%E9%95%9C/</link><description>Windows的熵减棱镜 - 分类 - SereinBlog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>serein9410@gmail.com (Serein)</managingEditor><webMaster>serein9410@gmail.com (Serein)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 29 May 2020 22:52:18 +0800</lastBuildDate><atom:link href="https://iyhome.github.io/categories/windows%E7%9A%84%E7%86%B5%E5%87%8F%E6%A3%B1%E9%95%9C/" rel="self" type="application/rss+xml"/><item><title>关于Windows原生输入法添加小鹤双拼的办法</title><link>https://iyhome.github.io/windows-flypy/</link><pubDate>Fri, 29 May 2020 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-flypy/</guid><description>&lt;blockquote>
-&lt;p>小鹤双拼是一种高效汉字输入法，将声母、韵母压缩为两键，结合形码（鹤形）区分同音字。其双拼方案键位设计合理，支持主流输入法挂接，学习成本低且能显著提升打字速度。
-本文介绍如何在windows自带输入法上面快速添加小鹤双拼输入法。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Windows的熵减棱镜 on opencode 与人类侍从</title>
+		<link>https://iyhome.github.io/categories/windows%E7%9A%84%E7%86%B5%E5%87%8F%E6%A3%B1%E9%95%9C/</link>
+		<description>Recent content in Windows的熵减棱镜 on opencode 与人类侍从</description>
+		<generator>Hugo</generator>
+		<language>zh-CN</language>
+		
+		
+		
+			<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		
+		
+			<lastBuildDate>Fri, 29 May 2020 22:52:18 +0800</lastBuildDate>
+		
+			<atom:link href="https://iyhome.github.io/categories/windows%E7%9A%84%E7%86%B5%E5%87%8F%E6%A3%B1%E9%95%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>关于Windows原生输入法添加小鹤双拼的办法</title>
+				<link>https://iyhome.github.io/archive/windows-flypy/</link>
+				<pubDate>Fri, 29 May 2020 22:52:18 +0800</pubDate>
+				<guid>https://iyhome.github.io/archive/windows-flypy/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;小鹤双拼是一种高效汉字输入法，将声母、韵母压缩为两键，结合形码（鹤形）区分同音字。其双拼方案键位设计合理，支持主流输入法挂接，学习成本低且能显著提升打字速度。&#xA;本文介绍如何在windows自带输入法上面快速添加小鹤双拼输入法。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

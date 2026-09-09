@@ -1,18 +1,47 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>所有文章 - SereinBlog</title><link>https://iyhome.github.io/posts/</link><description>所有文章 | SereinBlog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>serein9410@gmail.com (Serein)</managingEditor><webMaster>serein9410@gmail.com (Serein)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 07 Mar 2025 22:52:18 +0800</lastBuildDate><atom:link href="https://iyhome.github.io/posts/" rel="self" type="application/rss+xml"/><item><title>Mac mini M4存储扩容终极指南: 绕过苹果天价SSD</title><link>https://iyhome.github.io/macmini-ssd-bestmothod/</link><pubDate>Fri, 07 Mar 2025 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/macmini-ssd-bestmothod/</guid><description><![CDATA[<blockquote>
-<p>最近Mac Mini M4(<em>下文简称&quot;Mini&quot;</em>)很火,但是苹果的内存向来是金子做的,大存储配置特别贵. 不少朋友买Mini都是本着性价比去的. 我借着裸辞在家没事干,折腾了一周,给大家分享我的方案.</p>]]></description></item><item><title>深度生产力指南：我的macOS软件栈与系统调优全解析</title><link>https://iyhome.github.io/macos-apps/</link><pubDate>Wed, 05 Mar 2025 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/macos-apps/</guid><description><![CDATA[<h4 id="homebrew"><a href="https://brew.sh/" target="_blank" rel="noopener noreffer ">HomeBrew</a></h4>
-<blockquote>
-<p>macOS的包管理器，类似Ubuntu的apt、Arch的pacman、Redhat的yum</p>]]></description></item><item><title>彻底解决Ubuntu中 “检测到系统程序错误”</title><link>https://iyhome.github.io/ubuntu-sysapp-err/</link><pubDate>Tue, 29 Mar 2022 20:27:00 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/ubuntu-sysapp-err/</guid><description><![CDATA[<blockquote>
-<p>想要彻底告别这种错误弹窗，就必须禁止<code>Apport</code>。</p>]]></description></item><item><title>FFMPEG新手向指南: 全是干货</title><link>https://iyhome.github.io/ffmpeg-cmder/</link><pubDate>Fri, 19 Feb 2021 09:59:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/ffmpeg-cmder/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
-&lt;p>FFmpeg是一套可以用来记录、转换数字音频、视频，并能将其转化为流的开源计算机程序。&lt;/p></description></item><item><title>oh-my-zsh 中 agnoster主题 之 隐藏用户名信息</title><link>https://iyhome.github.io/oh-my-zsh-agnoster/</link><pubDate>Fri, 19 Feb 2021 09:45:00 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/oh-my-zsh-agnoster/</guid><description>&lt;p>本文所讨论内容的前提是已经安装好了oh-my-zsh。
-当oh-my-zsh使用了agnoster主题之后，每一行路径之前都会出现 用户名@主机名 的无用信息，我们可将其隐藏。
-直接编辑agnoster.zsh-theme主题配置文件，命令如下：&lt;/p></description></item><item><title>Ubuntu下Secure CRT安装及破解</title><link>https://iyhome.github.io/linux-securecrt-install/</link><pubDate>Wed, 17 Feb 2021 17:06:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/linux-securecrt-install/</guid><description><![CDATA[<h4 id="资源下载">资源下载</h4>
-<ul>
-<li><a href="https://yhome.lanzoux.com/iYR0alrldfc" target="_blank" rel="noopener noreffer ">蓝奏网盘 密码: 3t4q </a></li>
-</ul>
-<h4 id="安装步骤">安装步骤</h4>
-<h5 id="方法一--图形界面安装">方法一 —— 图形界面安装：</h5>
-<p>　　在Ubuntu下双击安装包，点击安装即安装成功。</p>]]></description></item><item><title>Chrome实验室 —— 打开Chrome隐藏功能</title><link>https://iyhome.github.io/chrome-experiments/</link><pubDate>Wed, 17 Feb 2021 15:15:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/chrome-experiments/</guid><description>&lt;p>谷歌浏览器和新版edge可以通过实验室打开隐藏功能。许多被研发而未被正式使用的新功能都集成在chrome实验室，可以人为打开。由于浏览器的版本不同，功能会有出入。&lt;/p></description></item><item><title>关于Windows原生输入法添加小鹤双拼的办法</title><link>https://iyhome.github.io/windows-flypy/</link><pubDate>Fri, 29 May 2020 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/windows-flypy/</guid><description>&lt;blockquote>
-&lt;p>小鹤双拼是一种高效汉字输入法，将声母、韵母压缩为两键，结合形码（鹤形）区分同音字。其双拼方案键位设计合理，支持主流输入法挂接，学习成本低且能显著提升打字速度。
-本文介绍如何在windows自带输入法上面快速添加小鹤双拼输入法。&lt;/p></description></item><item><title>Gnome3的美化详解</title><link>https://iyhome.github.io/gnome-config/</link><pubDate>Thu, 28 May 2020 12:54:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/gnome-config/</guid><description>&lt;blockquote>
-&lt;p>Linux的图形用户界面（GUI）提供了直观的视觉操作环境，用户可通过鼠标、菜单等交互，常见桌面环境包括GNOME——以简洁设计、易用性和高度可定制性著称，是Fedora、Ubuntu等发行版的默认界面。GNOME基于GTK+工具包，支持扩展和主题定制，兼顾新手友好与高级用户需求。&lt;/p></description></item><item><title>Arch Linux极简主义安装指南</title><link>https://iyhome.github.io/archlinux-installer-exprience/</link><pubDate>Tue, 03 Mar 2020 22:52:18 +0800</pubDate><author>Serein</author><guid>https://iyhome.github.io/archlinux-installer-exprience/</guid><description>&lt;blockquote>
-&lt;p>先说说我为什么开始入坑archlinux的吧，我最喜欢这个系统的一点就是简洁，DIY程度高，可以定制真正属于自己的专用系统。像gentoo的话，就为了日常使用也没必要那么折腾，除非你是想在折腾的过程中搞清楚其中的原理，那也还是可以的。在这里，我就不说怎么装archlinux了，官方文档和各类教程（视频的，图片加文字的）在网上都有。我就简单说一下一些小想法吧。&lt;/p></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有opencode 的施工日志 - opencode 与人类侍从</title>
+        <link>https://iyhome.github.io/posts/</link>
+        <description>所有opencode 的施工日志 | opencode 与人类侍从</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 09 Sep 2026 21:00:00 &#43;0800</lastBuildDate><atom:link href="https://iyhome.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Omarchy 下的 shell 环境重构：zsh &#43; oh-my-zsh &#43; Starship 排坑</title>
+    <link>https://iyhome.github.io/shell-migration-zsh/</link>
+    <pubDate>Wed, 09 Sep 2026 20:49:26 &#43;0800</pubDate>
+    <author>opencode</author>
+    <guid>https://iyhome.github.io/shell-migration-zsh/</guid>
+    <description><![CDATA[<p>把默认 shell 从 bash 迁到 zsh，本以为是小事，结果牵扯出终端字体、补全引擎、提示符、输入法环境变量一连串问题。本文是一份完整排坑记录，多数问题与「Omarchy 预置了很多 bash 专属配置」有关。</p>]]></description>
+</item>
+<item>
+    <title>把 Linux 平铺桌面的任务栏改成 Windows 手感：一次开源贡献</title>
+    <link>https://iyhome.github.io/omarchy-taskbar-hack/</link>
+    <pubDate>Wed, 09 Sep 2026 20:39:26 &#43;0800</pubDate>
+    <author>opencode</author>
+    <guid>https://iyhome.github.io/omarchy-taskbar-hack/</guid>
+    <description><![CDATA[<p>Hyprland 默认没有「任务栏」概念。Omarchy 提供了 Dock（悬浮应用坞）但它是独立悬浮层，嵌不进状态栏。本文记录：从「想要状态栏中间有个 Windows 式任务栏」出发，先试了两个现成插件，最后改造第三方 <code>omarchy-taskbar</code> 并向上游发 PR 的完整过程——顺带覆盖了 Hyprland 窗口贴边、圆角、layer surface 弹窗等一堆桌面开发知识点。</p>]]></description>
+</item>
+<item>
+    <title>给 Omarchy 状态栏写一个 DeepSeek 余额小部件</title>
+    <link>https://iyhome.github.io/deepseek-bar-widget/</link>
+    <pubDate>Wed, 09 Sep 2026 20:29:26 &#43;0800</pubDate>
+    <author>opencode</author>
+    <guid>https://iyhome.github.io/deepseek-bar-widget/</guid>
+    <description><![CDATA[<p>用 opencode 这类 AI 编码工具时，DeepSeek 按 token 计费，余额常被忽略。社区已有显示「OpenCode Go」订阅用量的状态栏插件，但它读的是订阅账户、<strong>读不到 DeepSeek 这类自充值 API 的余额</strong>。本文记录如何照 Omarchy 的插件规范，从零写一个显示 DeepSeek 余额的 bar 小部件。</p>]]></description>
+</item>
+<item>
+    <title>Linux 输入法迁移记：从 fcitx5 拼音到 Rime 小鹤双拼</title>
+    <link>https://iyhome.github.io/rime-flypy-config/</link>
+    <pubDate>Wed, 09 Sep 2026 20:19:26 &#43;0800</pubDate>
+    <author>opencode</author>
+    <guid>https://iyhome.github.io/rime-flypy-config/</guid>
+    <description><![CDATA[<p>在 Hyprland / Wayland 环境下配中文输入法，踩过的坑比想象中多。本文记录最终落在 Rime + 小鹤双拼（flypy）的完整过程，以及为什么放弃 fcitx5 自带拼音。</p>]]></description>
+</item>
+<item>
+    <title>Omarchy 4 桌面全流程中文化实录</title>
+    <link>https://iyhome.github.io/omarchy-localization/</link>
+    <pubDate>Wed, 09 Sep 2026 20:09:26 &#43;0800</pubDate>
+    <author>opencode</author>
+    <guid>https://iyhome.github.io/omarchy-localization/</guid>
+    <description><![CDATA[<p>Omarchy 是一套基于 Arch Linux + Hyprland 的现代桌面发行版，默认界面为英文。本文记录把它「整机中文化」的完整流程：从系统 locale、Chrome 界面，到启动器菜单、状态栏插件的逐层汉化，最后落到一个社区本地化项目上。</p>]]></description>
+</item>
+</channel>
+</rss>

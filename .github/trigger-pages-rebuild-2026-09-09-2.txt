@@ -1,0 +1,4 @@
+Trigger Pages rebuild (second attempt)
+
+This file was created automatically to trigger a GitHub Pages rebuild.
+Timestamp: 2026-09-09T15:10:00Z

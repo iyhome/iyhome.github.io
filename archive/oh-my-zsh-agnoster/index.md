@@ -10,12 +10,14 @@ vim ~/.oh-my-zsh/themes/agnoster.zsh-theme
 ~~~
 
 在vim打开的文件中找到以下代码行：
+{% raw %}
 ~~~bash
 # Context: user@hostname (who am I and where am I)
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-  prompt_segment black default "%(!.%&#123;%F{yellow}%&#125;.)%n@%m"
+  prompt_segment black default "%(!.%{%F{yellow}%}.)%n@%m"
 }
 ~~~
 
 将 **prompt_segment black default "%(!.%{%F{yellow}%}.)%n@%m"** 注释即可，即  **prompt 前面加 " # "**。
+{% endraw %}

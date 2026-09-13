@@ -1,47 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Application的通融棱镜 on opencode 与人类侍从</title>
-		<link>https://iyhome.github.io/categories/application%E7%9A%84%E9%80%9A%E8%9E%8D%E6%A3%B1%E9%95%9C/</link>
-		<description>Recent content in Application的通融棱镜 on opencode 与人类侍从</description>
-		<generator>Hugo</generator>
-		<language>zh-CN</language>
-		
-		
-		
-			<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		
-		
-			<lastBuildDate>Fri, 19 Feb 2021 09:59:18 +0800</lastBuildDate>
-		
-			<atom:link href="https://iyhome.github.io/categories/application%E7%9A%84%E9%80%9A%E8%9E%8D%E6%A3%B1%E9%95%9C/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>FFMPEG新手向指南: 全是干货</title>
-				<link>https://iyhome.github.io/archive/ffmpeg-cmder/</link>
-				<pubDate>Fri, 19 Feb 2021 09:59:18 +0800</pubDate>
-				<guid>https://iyhome.github.io/archive/ffmpeg-cmder/</guid>
-				<description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;&#xA;&lt;p&gt;FFmpeg是一套可以用来记录、转换数字音频、视频，并能将其转化为流的开源计算机程序。&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>oh-my-zsh 中 agnoster主题 之 隐藏用户名信息</title>
-				<link>https://iyhome.github.io/archive/oh-my-zsh-agnoster/</link>
-				<pubDate>Fri, 19 Feb 2021 09:45:00 +0800</pubDate>
-				<guid>https://iyhome.github.io/archive/oh-my-zsh-agnoster/</guid>
-				<description>&lt;p&gt;本文所讨论内容的前提是已经安装好了oh-my-zsh。&#xA;当oh-my-zsh使用了agnoster主题之后，每一行路径之前都会出现 用户名@主机名 的无用信息，我们可将其隐藏。&#xA;直接编辑agnoster.zsh-theme主题配置文件，命令如下：&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Ubuntu下Secure CRT安装及破解</title>
-				<link>https://iyhome.github.io/archive/linux-securecrt-install/</link>
-				<pubDate>Wed, 17 Feb 2021 17:06:18 +0800</pubDate>
-				<guid>https://iyhome.github.io/archive/linux-securecrt-install/</guid>
-				<description>&lt;h4 id=&#34;资源下载&#34;&gt;资源下载&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://yhome.lanzoux.com/iYR0alrldfc&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;蓝奏网盘 密码: 3t4q &lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;安装步骤&#34;&gt;安装步骤&lt;/h4&gt;&#xA;&lt;h5 id=&#34;方法一--图形界面安装&#34;&gt;方法一 —— 图形界面安装：&lt;/h5&gt;&#xA;&lt;p&gt;　　在Ubuntu下双击安装包，点击安装即安装成功。&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Chrome实验室 —— 打开Chrome隐藏功能</title>
-				<link>https://iyhome.github.io/archive/chrome-experiments/</link>
-				<pubDate>Wed, 17 Feb 2021 15:15:18 +0800</pubDate>
-				<guid>https://iyhome.github.io/archive/chrome-experiments/</guid>
-				<description>&lt;p&gt;谷歌浏览器和新版edge可以通过实验室打开隐藏功能。许多被研发而未被正式使用的新功能都集成在chrome实验室，可以人为打开。由于浏览器的版本不同，功能会有出入。&lt;/p&gt;</description>
-			</item>
-	</channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Application的通融棱镜 - 分类 - opencode 与人类侍从</title><link>https://iyhome.github.io/categories/application%E7%9A%84%E9%80%9A%E8%9E%8D%E6%A3%B1%E9%95%9C/</link><description>Application的通融棱镜 - 分类 - opencode 与人类侍从</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 19 Feb 2021 09:59:18 +0800</lastBuildDate><atom:link href="https://iyhome.github.io/categories/application%E7%9A%84%E9%80%9A%E8%9E%8D%E6%A3%B1%E9%95%9C/" rel="self" type="application/rss+xml"/><item><title>FFMPEG新手向指南: 全是干货</title><link>https://iyhome.github.io/archive/ffmpeg-cmder/</link><pubDate>Fri, 19 Feb 2021 09:59:18 +0800</pubDate><author>opencode</author><guid>https://iyhome.github.io/archive/ffmpeg-cmder/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>FFmpeg是一套可以用来记录、转换数字音频、视频，并能将其转化为流的开源计算机程序。&lt;/p></description></item><item><title>oh-my-zsh 中 agnoster主题 之 隐藏用户名信息</title><link>https://iyhome.github.io/archive/oh-my-zsh-agnoster/</link><pubDate>Fri, 19 Feb 2021 09:45:00 +0800</pubDate><author>opencode</author><guid>https://iyhome.github.io/archive/oh-my-zsh-agnoster/</guid><description>&lt;p>本文所讨论内容的前提是已经安装好了oh-my-zsh。
+当oh-my-zsh使用了agnoster主题之后，每一行路径之前都会出现 用户名@主机名 的无用信息，我们可将其隐藏。
+直接编辑agnoster.zsh-theme主题配置文件，命令如下：&lt;/p></description></item><item><title>Ubuntu下Secure CRT安装及破解</title><link>https://iyhome.github.io/archive/linux-securecrt-install/</link><pubDate>Wed, 17 Feb 2021 17:06:18 +0800</pubDate><author>opencode</author><guid>https://iyhome.github.io/archive/linux-securecrt-install/</guid><description><![CDATA[<h4 id="资源下载">资源下载</h4>
+<ul>
+<li><a href="https://yhome.lanzoux.com/iYR0alrldfc" target="_blank" rel="noopener noreffer ">蓝奏网盘 密码: 3t4q </a></li>
+</ul>
+<h4 id="安装步骤">安装步骤</h4>
+<h5 id="方法一--图形界面安装">方法一 —— 图形界面安装：</h5>
+<p>　　在Ubuntu下双击安装包，点击安装即安装成功。</p>]]></description></item><item><title>Chrome实验室 —— 打开Chrome隐藏功能</title><link>https://iyhome.github.io/archive/chrome-experiments/</link><pubDate>Wed, 17 Feb 2021 15:15:18 +0800</pubDate><author>opencode</author><guid>https://iyhome.github.io/archive/chrome-experiments/</guid><description>&lt;p>谷歌浏览器和新版edge可以通过实验室打开隐藏功能。许多被研发而未被正式使用的新功能都集成在chrome实验室，可以人为打开。由于浏览器的版本不同，功能会有出入。&lt;/p></description></item></channel></rss>

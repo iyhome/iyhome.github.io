@@ -1,4 +1,0 @@
-Trigger Pages rebuild
-
-This file was created automatically to trigger a GitHub Pages rebuild.
-Timestamp: 2026-09-09T14:58:00Z

@@ -63,6 +63,18 @@ patch:
 busctl --user call org.fcitx.Fcitx5 /controller org.fcitx.Fcitx.Controller1 ReloadAddonConfig s rime
 ```
 
+### 1.3 候选框圆角外的「矩形层」
+
+换到 KDE 后，候选框沿用了 macOS-light 皮肤：四角是圆角，但圆角外还能看到一层模糊的矩形，整体看起来像矩形而不是真正的圆角。根因是皮肤 `theme.conf` 里的 `EnableBlur=True`——KDE 下 KWin 的模糊区域是**整个矩形 surface**（`BlurMask` 为空时），圆角外就露出模糊层。而这个皮肤背景本就不透明，模糊完全用不上，关掉即可、视觉无损：
+
+```ini
+# ~/.local/share/fcitx5/themes/macOS-light/theme.conf
+[InputPanel]
+EnableBlur=False
+```
+
+改完 `fcitx5-remote -r` 重载即可。
+
 ## 2. 字体：搬过来，再把回退钉死
 
 把 Windows 分区里的 ttf/ttc 复制到用户字体目录（仅个人自用，注意版权）：
